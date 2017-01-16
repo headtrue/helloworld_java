@@ -8,7 +8,7 @@ public class Quiz2 {
 	      char char1, char2;
 	      Scanner scanner = new Scanner(System.in);
 	      do{
-	         System.out.println("숫자를 입력하세요.");
+	         System.out.println("숫자를 입력해주세요.");
 	         String select = scanner.nextLine();
 	         if(select.equals("1")){
 	            start1=1; start2=4; inc1=1; inc2=-1;
